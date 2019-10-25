@@ -1,5 +1,5 @@
 # IllumioPCE_v2_2019
-This repository contains a possible solution to Illumio's take-home coding assignment, which is a component of their interview process.
+This repository contains my approach to Illumio's take-home coding assignment, which is a component of their interview process.
 
 Create a virutal environment and activate source
 
