@@ -55,8 +55,8 @@ class Firewall(object):
     def binary_search(self, rules: pd.DataFrame, start_index: int, end_index: int, packet: tuple):
 
         """
-        Binary search through a DataFrame. This search function is return keeping in mind
-        the number of rules in the input file. Performs considerably well, in case the
+        Binary search through a DataFrame of rules. This search function is written keeping in mind, 
+        the number of rules in the input file. It performs considerably well in case the
         file has thousands of rules.
 
         :param: rules: pd.DataFrame
@@ -156,7 +156,7 @@ class Firewall(object):
 
         """
         Returns True if the packet is allowed by the Firewall. False otherwise.
-        ------------------------
+      
         :param: direction: str
         :param: protocol: str
         :param: port: int
