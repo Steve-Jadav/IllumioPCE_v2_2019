@@ -71,7 +71,6 @@ class Firewall(object):
 
             mid = int(start_index + (end_index-start_index)/2)
             mid_row = rules.iloc[mid]
-            print (mid_row)
 
             # There can be two possible cases at every recursive call
             # 1 -- The rule specifies a port number
